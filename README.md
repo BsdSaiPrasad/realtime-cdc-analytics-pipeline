@@ -68,12 +68,19 @@ Airflow orchestrates ingestion and dbt transformations across the warehouse laye
 
 ## 📂 Project Structure
 ├── postgres/                 # OLTP schema & seeds
+
 ├── kafka-debezium/           # CDC connector setup
+
 ├── consumer/                 # Kafka → MinIO loader
+
 ├── data-generator/           # Faker-based data simulation
+
 ├── docker/dags/              # Airflow orchestration
+
 ├── banking_dbt/              # dbt models & snapshots
+
 ├── .github/workflows/        # CI/CD automation
+
 ├── docker-compose.yml        # Full stack containers
 
 ---
@@ -131,3 +138,4 @@ It demonstrates building a **complete data platform**, not just scripts.
 **Sai Prasad B**  
 Data Engineer  
 GitHub: https://github.com/BsdSaiPrasad
+
